@@ -1,5 +1,5 @@
 def my_each(array)
-  if block?
+  if block_given?
     i = 0
  
     while i < array.length
@@ -9,6 +9,6 @@ def my_each(array)
  
     array
   else
-    "Not smaller than length"
+    "Hey! No block was given!"
   end
 end
