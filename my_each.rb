@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(array)
+  while
+    yield
+  puts
+  end
 end
